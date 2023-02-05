@@ -62,7 +62,7 @@ The structure of the data is as follows:
 
 {
     "<Train_Number>": {
-        "<Station_Name>": {
+        "<Station_Code>": {
             "Serial_No": <Serial Number>,
             "Station Name": "<Station Name>",
             "Route Number": <Route Number>,
@@ -74,9 +74,10 @@ The structure of the data is as follows:
     }
  } 
  ```
-- **`' Serial_No'`**: The serial number of the station
+- **`'Station_Code'`**: The code of the station the train passes through
+- **`' Serial_No'`**: The serial number of the station in the train's journey
 - **`'Station Name'`**: The name of the station
-- **`'Route Number'`**: The route number of the train
+- **`'Route Number'`**: The route number of the train in which the train stops at the station.
 - **`'Arrival Time'`**: The arrival time of the train at the station
 - **`'Departure Time'`**: The departure time of the train from the station
 - **`'Halt Time'`**: The time the train spends at the station
