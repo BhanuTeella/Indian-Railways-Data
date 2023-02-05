@@ -87,7 +87,6 @@ The structure of the data is as follows:
 
 This file stores information about Indian railway stations and the trains that pass through them. The data is stored in a dictionary format where each key is a unique station code and the corresponding value is another dictionary containing information about the station.
 
-Structure of the data
 The structure of the data is as follows:
 
 ```
